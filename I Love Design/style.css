@@ -1,0 +1,315 @@
+/* Start Framework */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+
+}
+p{
+    font-size: 15px;
+    font-weight: 400px;
+    line-height: 30px;
+    color:#888a8b;
+}
+
+.container{
+    max-width: 940px;
+    /* background-color: red; */
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.text-center{
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: #464b4f;
+    font-weight: 700px;
+    text-transform: uppercase;
+
+}
+.bg-primary{
+    background-color: #7b77c9;
+}
+
+.bg-secondary{
+    background-color: #23232e;
+}
+
+
+.text-white{
+    color: #fff;
+}
+.text-black{
+    color:black;
+}
+
+body{
+    background-image: url(img/bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/* End Framework */
+
+/* Header Start */
+
+.header{
+    
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    text-align: center;
+    padding: 80px 0;
+    color:white
+}
+
+.logo img{
+    width:130px;
+    height: 130px;
+}
+.header h1{
+    margin-top: 80px;
+    margin-bottom: 60px;
+    font-size: 80px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.header p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 80px;
+}
+
+.header span{
+    border:2px solid #fff;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 50%;
+}
+/* Header End */
+
+
+/* what-i-do start */
+
+.what-i-do{
+    padding-top:125px;
+    padding-bottom: 80px;
+}
+
+.whatido_text h5{
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    text-transform: none;
+}
+
+.section-heading h2{
+    font-size: 80px;
+    margin-bottom: 60px;
+    
+    
+}
+
+.section-feature{
+    display: flex;
+    width:100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.single_item{
+    /* flex: 1; */
+    width: 32%;
+}
+.single_item h6{
+    margin-bottom: 10px;
+}
+
+
+/* what-i-do End */
+
+/* My work Start */
+.mywork{
+    padding-top:125px;
+    padding-bottom: 80px;
+}
+.mywork .navbar{
+    margin-bottom: 50px;
+}
+.mywork .navbar a{
+    color: #fff;
+    margin: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+.mywork .navbar a:hover{
+    border-bottom: 4px solid #fff;
+}
+
+.mywork_items{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mywork_item{
+    margin-bottom: 30px;
+    width: 32%;
+}
+.mywork_item h6{
+    font-size: 21px;
+    line-height: 36px;
+    font-weight: normal;
+    text-transform: none;
+    color: #fff;
+    margin-top: 12px;
+}
+
+.mywork_item p{
+    font-size: 14px;
+    line-height: 36px;
+    font-weight: normal;
+    text-transform: none;
+    color: #818baa;
+}
+ 
+.mywork_btn button{
+    padding: 20px 40px;
+    margin-top: 60px;
+    background-color: #7b77c9;
+    border: 2px solid #7b77c9;
+    border-radius: 5px;
+    color: #fff;
+
+}
+.mywork_btn button:hover{
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* My work End */
+
+/* Photograpy start */
+.photography p{
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 30px;
+    color:#888a8b;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.photo_btn button{
+    padding: 20px 40px;
+    margin-top: 60px;
+    background-color: #7b77c9;
+    border: 2px solid #7b77c9;
+    border-radius: 5px;
+    color:black;
+
+}
+.photo_btn button:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+/* Photograpy End */
+
+/* Subscribe */
+.subscribe{
+    padding: 250px 0;
+}
+.subscribe-box .fa-infinity{
+    font-size: 50px;
+    color: #fff;
+    font-weight: 500;
+}
+.subscribe-box p{
+    padding: 600;
+}
+
+form input{
+    width: 380px;
+    /* height: 60px; */
+    padding: 20px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.inp_btn{
+    width: 200px;
+    background-color: #7b77c9;
+    color: #fff;
+}
+
+
+/* footer Start */
+.footer_icon{
+    margin-top: 30px;
+}
+.footer_icon p {
+    margin-top: 100px;
+}
+
+.footer_icon p a{
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.footer_icon .fa-twitter .fa-basketball .fa-behance .fa-camera-retro{
+font-size: 10px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+
+
+
+/* Responsive */
+
+@media screen and (max-width:768px) {
+    .single_item{
+        /* flex: 1; */
+        width: 50%;
+        margin-bottom: 30px;
+    } 
+    
+}
+@media screen and (max-width:600px) {
+    .single_item{
+        /* flex: 1; */
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .section-heading h2{
+        font-size: 50px;
+    }
+}
+
+
+/* my work responsive */
+
+@media screen and (max-width:768px) {
+    .mywork_item{
+        /* flex: 1; */
+        width: 50%;
+        margin-bottom: 30px;
+    } 
+    
+}
+@media screen and (max-width:600px) {
+    .mywork_item{
+        /* flex: 1; */
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
